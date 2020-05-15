@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="analizar_herencias" size="857,1550" id="analizar" metadata="uml2-1.0" initialized="true" scrolledY="392" tag="1000" key="32303037303533312D313030302052696573676F5369736D69636F4C696E656173566974616C65732F75736572">
+  <children xsi:type="editmodel:ClassEditModel" name="PasarAmenazaRaster_a_FClass" location="5,669" size="241,67" id="analizar/PasarAmenazaRaster_a_FClass" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="analizar/PasarAmenazaRaster_a_FClass#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ValidarGP_MensajesGP" location="457,508" size="195,103" id="analizar/ValidarGP_MensajesGP" runTimeClassModel="returnMessagesGP(Lcom.esri.arcgis.geoprocessing.GeoProcessor;Ljava.lang.String;),devolverMensagesValidacion(Lcom.esri.arcgis.geodatabase.IGPMessages;Ljava.lang.String;),Validar(Lcom.esri.arcgis.geoprocessing.GeoProcessor;Lcom.esri.arcgis.geoprocessing.GPTool;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="172,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Validar" id="analizar/ValidarGP_MensajesGP#Validar(Lcom.esri.arcgis.geoprocessing.GeoProcessor;Lcom.esri.arcgis.geoprocessing.GPTool;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="devolverMensagesValidacion" id="analizar/ValidarGP_MensajesGP#devolverMensagesValidacion(Lcom.esri.arcgis.geodatabase.IGPMessages;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="returnMessagesGP" id="analizar/ValidarGP_MensajesGP#returnMessagesGP(Lcom.esri.arcgis.geoprocessing.GeoProcessor;Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SpatialRelation" location="270,526" size="177,139" id="analizar/SpatialRelation" runTimeClassModel="main([Ljava.lang.String;),createSpatialFilter(Lcom.esri.arcgis.geodatabase.IFeatureClass;),processFeatures(Ljava.lang.String;Ljava.lang.String;),ws,getShapefileFeatureClass(Ljava.lang.String;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="ws" id="analizar/SpatialRelation#ws"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="154,72">
+      <children xsi:type="editmodel:MethodEditModel" name="createSpatialFilter" id="analizar/SpatialRelation#createSpatialFilter(Lcom.esri.arcgis.geodatabase.IFeatureClass;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getShapefileFeatureClass" id="analizar/SpatialRelation#getShapefileFeatureClass(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="analizar/SpatialRelation#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="processFeatures" id="analizar/SpatialRelation#processFeatures(Ljava.lang.String;Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ArregloValoresUnicos" location="250,675" size="218,103" id="analizar/ArregloValoresUnicos" runTimeClassModel="getvaloresUnicosSet(),ArregloValoresUnicos(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),valoresUnicosSet">
+    <children xsi:type="editmodel:CompartmentEditModel" size="195,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="valoresUnicosSet" id="analizar/ArregloValoresUnicos#valoresUnicosSet"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="137,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ArregloValoresUnicos" id="analizar/ArregloValoresUnicos#ArregloValoresUnicos(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getvaloresUnicosSet" id="analizar/ArregloValoresUnicos#getvaloresUnicosSet()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Interpolador" location="506,740" size="139,67" id="analizar/Interpolador" runTimeClassModel="singleInterpolation(DDDDD)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,18">
+      <children xsi:type="editmodel:MethodEditModel" name="singleInterpolation" id="analizar/Interpolador#singleInterpolation(DDDDD)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ConvertirCodigo_a_FactorCorreccion" location="142,275" size="276,67" id="analizar/ConvertirCodigo_a_FactorCorreccion" runTimeClassModel="PasarAtributo(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;II)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,18">
+      <children xsi:type="editmodel:MethodEditModel" name="PasarAtributo" id="analizar/ConvertirCodigo_a_FactorCorreccion#PasarAtributo(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FactoresCorreccionTuberias" location="5,0" size="239,265" id="analizar/FactoresCorreccionTuberias" runTimeClassModel="nombre,tipoFactorCorreccion,loadValoresFactorCorreccion(),FactoresCorreccionTuberias(),factoresCorreccionTuberiasId,loadFactorCorreccion(),FactoresCorreccionTuberias(Ljava.lang.String;Ljava.lang.Integer;),workspace,descripcion,despejarFactorCorreccion(I),setFactoresCoreccionSet(Ljava.util.ArrayList;),factoresCoreccionSet">
+    <children xsi:type="editmodel:CompartmentEditModel" size="216,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="descripcion" id="analizar/FactoresCorreccionTuberias#descripcion"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="factoresCoreccionSet" id="analizar/FactoresCorreccionTuberias#factoresCoreccionSet"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="factoresCorreccionTuberiasId" id="analizar/FactoresCorreccionTuberias#factoresCorreccionTuberiasId"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nombre" id="analizar/FactoresCorreccionTuberias#nombre"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tipoFactorCorreccion" id="analizar/FactoresCorreccionTuberias#tipoFactorCorreccion"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="workspace" id="analizar/FactoresCorreccionTuberias#workspace"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="172,108">
+      <children xsi:type="editmodel:MethodEditModel" name="FactoresCorreccionTuberias" id="analizar/FactoresCorreccionTuberias#FactoresCorreccionTuberias(Ljava.lang.String;Ljava.lang.Integer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="FactoresCorreccionTuberias" id="analizar/FactoresCorreccionTuberias#FactoresCorreccionTuberias()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="despejarFactorCorreccion" id="analizar/FactoresCorreccionTuberias#despejarFactorCorreccion(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadFactorCorreccion" id="analizar/FactoresCorreccionTuberias#loadFactorCorreccion()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadValoresFactorCorreccion" id="analizar/FactoresCorreccionTuberias#loadValoresFactorCorreccion()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFactoresCoreccionSet" id="analizar/FactoresCorreccionTuberias#setFactoresCoreccionSet(Ljava.util.ArrayList;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PasarAtributoPoligonos_a_FClass" location="5,521" size="254,67" id="analizar/PasarAtributoPoligonos_a_FClass" runTimeClassModel="PasarAtributo(Lcom.esri.arcgis.geodatabase.FeatureClass;Ljava.lang.String;Lcom.esri.arcgis.geodatabase.FeatureClass;Ljava.lang.String;I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,18">
+      <children xsi:type="editmodel:MethodEditModel" name="PasarAtributo" id="analizar/PasarAtributoPoligonos_a_FClass#PasarAtributo(Lcom.esri.arcgis.geodatabase.FeatureClass;Ljava.lang.String;Lcom.esri.arcgis.geodatabase.FeatureClass;Ljava.lang.String;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Curva" location="481,5" size="166,337" id="analizar/Curva" runTimeClassModel="curvaId,tipoformula,maxx,maxy,loadCurva(Lcom.esri.arcgis.geodatabase.Cursor;),minx,miny,loadPoints(Lcom.esri.arcgis.geodatabase.Cursor;),despejarCurva(Ljava.lang.Float;Ljava.lang.Float;),Curva(ILcom.esri.arcgis.geodatabase.Cursor;Lcom.esri.arcgis.geodatabase.Cursor;),miListaPuntos,setPointList(Ljava.util.List;),getPointList(),interpolarPunto(F),despejarCurva(Ljava.lang.Float;),formula">
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="curvaId" id="analizar/Curva#curvaId"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="formula" id="analizar/Curva#formula"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="maxx" id="analizar/Curva#maxx"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="maxy" id="analizar/Curva#maxy"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="miListaPuntos" id="analizar/Curva#miListaPuntos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="minx" id="analizar/Curva#minx"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="miny" id="analizar/Curva#miny"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tipoformula" id="analizar/Curva#tipoformula"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,144">
+      <children xsi:type="editmodel:MethodEditModel" name="Curva" id="analizar/Curva#Curva(ILcom.esri.arcgis.geodatabase.Cursor;Lcom.esri.arcgis.geodatabase.Cursor;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="despejarCurva" id="analizar/Curva#despejarCurva(Ljava.lang.Float;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="despejarCurva" id="analizar/Curva#despejarCurva(Ljava.lang.Float;Ljava.lang.Float;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPointList" id="analizar/Curva#getPointList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="interpolarPunto" id="analizar/Curva#interpolarPunto(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadCurva" id="analizar/Curva#loadCurva(Lcom.esri.arcgis.geodatabase.Cursor;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadPoints" id="analizar/Curva#loadPoints(Lcom.esri.arcgis.geodatabase.Cursor;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPointList" id="analizar/Curva#setPointList(Ljava.util.List;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="EjecutarMetodos" location="5,817" size="147,67" id="analizar/EjecutarMetodos" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="analizar/EjecutarMetodos#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MathEvaluator" location="5,275" size="133,229" id="analizar/MathEvaluator" runTimeClassModel="getValue(),addVariable(Ljava.lang.String;Ljava.lang.Double;),main([Ljava.lang.String;),expression,MathEvaluator(),getVariable(Ljava.lang.String;),addVariable(Ljava.lang.String;D),reset(),trace(),MathEvaluator(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="expression" id="analizar/MathEvaluator#expression"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="98,162">
+      <children xsi:type="editmodel:MethodEditModel" name="MathEvaluator" id="analizar/MathEvaluator#MathEvaluator(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="MathEvaluator" id="analizar/MathEvaluator#MathEvaluator()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addVariable" id="analizar/MathEvaluator#addVariable(Ljava.lang.String;D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addVariable" id="analizar/MathEvaluator#addVariable(Ljava.lang.String;Ljava.lang.Double;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getValue" id="analizar/MathEvaluator#getValue()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getVariable" id="analizar/MathEvaluator#getVariable(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="analizar/MathEvaluator#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reset" id="analizar/MathEvaluator#reset()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="trace" id="analizar/MathEvaluator#trace()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PruebaDatasets" location="505,814" size="141,67" id="analizar/PruebaDatasets" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="analizar/PruebaDatasets#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="UsarCurvaVulnerabilidad" location="5,743" size="201,67" id="analizar/UsarCurvaVulnerabilidad" runTimeClassModel="InterpolarCurvaAsignarMapa(Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="168,18">
+      <children xsi:type="editmodel:MethodEditModel" name="InterpolarCurvaAsignarMapa" id="analizar/UsarCurvaVulnerabilidad#InterpolarCurvaAsignarMapa(Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="UnirTVU_ConDanio_a_FC" location="445,352" size="202,67" id="analizar/UnirTVU_ConDanio_a_FC" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="analizar/UnirTVU_ConDanio_a_FC#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ConvertirCodigos_a_FactorCorreccion" location="142,356" size="282,67" id="analizar/ConvertirCodigos_a_FactorCorreccion" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="analizar/ConvertirCodigos_a_FactorCorreccion#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DistrubucionesProbabilidad" location="259,180" size="217,67" id="analizar/DistrubucionesProbabilidad" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="analizar/DistrubucionesProbabilidad#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PasarAtributoPoligonos_a_FClasses" location="142,447" size="268,67" id="analizar/PasarAtributoPoligonos_a_FClasses" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="analizar/PasarAtributoPoligonos_a_FClasses#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CrearTablaValoresUnicosCampo" location="5,595" size="248,67" id="analizar/CrearTablaValoresUnicosCampo" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="analizar/CrearTablaValoresUnicosCampo#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CalcularDanio" location="215,814" size="132,67" id="analizar/CalcularDanio" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="analizar/CalcularDanio#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CalcularNuevoCampo" location="475,630" size="180,103" id="analizar/CalcularNuevoCampo" runTimeClassModel="Calcular(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;IIIILjava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),CalcularNuevoCampo(),gp">
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="gp" id="analizar/CalcularNuevoCampo#gp"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Calcular" id="analizar/CalcularNuevoCampo#Calcular(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;IIIILjava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CalcularNuevoCampo" id="analizar/CalcularNuevoCampo#CalcularNuevoCampo()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SpatialQuery" location="371,814" size="125,67" id="analizar/SpatialQuery" runTimeClassModel="Spatial_Query(Lcom.esri.arcgis.geodatabase.FeatureClass;Lcom.esri.arcgis.geometry.IGeometry;ILjava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="98,18">
+      <children xsi:type="editmodel:MethodEditModel" name="Spatial_Query" id="analizar/SpatialQuery#Spatial_Query(Lcom.esri.arcgis.geodatabase.FeatureClass;Lcom.esri.arcgis.geometry.IGeometry;ILjava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CrearClaseRouting" location="487,429" size="161,67" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CalcularProbabilidades" location="250,5" size="225,157" id="analizar/CalcularProbabilidades" runTimeClassModel="DensidadComplementariaLogNormal(Ljava.lang.Float;Ljava.lang.Float;Ljava.lang.Float;),DistribucionLogNormal(Ljava.lang.Float;Ljava.lang.Float;Ljava.lang.Float;),DistribucionNormal(Ljava.lang.Float;Ljava.lang.Float;Ljava.lang.Float;),DensidadNormal(Ljava.lang.Float;Ljava.lang.Float;Ljava.lang.Float;),DensidadComplementariaNormal(Ljava.lang.Float;Ljava.lang.Float;Ljava.lang.Float;),DensidadLogNormal(Ljava.lang.Float;Ljava.lang.Float;Ljava.lang.Float;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="202,108">
+      <children xsi:type="editmodel:MethodEditModel" name="DensidadComplementariaLogNormal" id="analizar/CalcularProbabilidades#DensidadComplementariaLogNormal(Ljava.lang.Float;Ljava.lang.Float;Ljava.lang.Float;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DensidadComplementariaNormal" id="analizar/CalcularProbabilidades#DensidadComplementariaNormal(Ljava.lang.Float;Ljava.lang.Float;Ljava.lang.Float;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DensidadLogNormal" id="analizar/CalcularProbabilidades#DensidadLogNormal(Ljava.lang.Float;Ljava.lang.Float;Ljava.lang.Float;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DensidadNormal" id="analizar/CalcularProbabilidades#DensidadNormal(Ljava.lang.Float;Ljava.lang.Float;Ljava.lang.Float;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DistribucionLogNormal" id="analizar/CalcularProbabilidades#DistribucionLogNormal(Ljava.lang.Float;Ljava.lang.Float;Ljava.lang.Float;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DistribucionNormal" id="analizar/CalcularProbabilidades#DistribucionNormal(Ljava.lang.Float;Ljava.lang.Float;Ljava.lang.Float;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

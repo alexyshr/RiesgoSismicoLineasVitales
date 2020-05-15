@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="modelos_rslv_herencias" size="824,723" id="analizar.modelos_rslv" metadata="uml2-1.0" initialized="true" scrolledX="102" scrolledY="-46" tag="1000" key="32303037303533312D313030302052696573676F5369736D69636F4C696E656173566974616C65732F75736572">
+  <children xsi:type="editmodel:ClassEditModel" name="ValoresUnicosCampo" location="450,-41" size="177,247" id="analizar.modelos_rslv/ValoresUnicosCampo" runTimeClassModel="getToolboxName(),ValoresUnicosCampo(),getTablaValoresUnicos(),setCampoFCX(Ljava.lang.Object;),setTablaValoresUnicos(Ljava.lang.Object;),getToolName(),getToolboxAlias(),ValoresUnicosCampo(Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;),getCampoFCX(),setFClass(Ljava.lang.Object;),getFClass()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,198">
+      <children xsi:type="editmodel:MethodEditModel" name="ValoresUnicosCampo" id="analizar.modelos_rslv/ValoresUnicosCampo#ValoresUnicosCampo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ValoresUnicosCampo" id="analizar.modelos_rslv/ValoresUnicosCampo#ValoresUnicosCampo(Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCampoFCX" id="analizar.modelos_rslv/ValoresUnicosCampo#getCampoFCX()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFClass" id="analizar.modelos_rslv/ValoresUnicosCampo#getFClass()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTablaValoresUnicos" id="analizar.modelos_rslv/ValoresUnicosCampo#getTablaValoresUnicos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolName" id="analizar.modelos_rslv/ValoresUnicosCampo#getToolName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolboxAlias" id="analizar.modelos_rslv/ValoresUnicosCampo#getToolboxAlias()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolboxName" id="analizar.modelos_rslv/ValoresUnicosCampo#getToolboxName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCampoFCX" id="analizar.modelos_rslv/ValoresUnicosCampo#setCampoFCX(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFClass" id="analizar.modelos_rslv/ValoresUnicosCampo#setFClass(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTablaValoresUnicos" id="analizar.modelos_rslv/ValoresUnicosCampo#setTablaValoresUnicos(Ljava.lang.Object;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="com.esri.arcgis.geoprocessing/AbstractGPTool&lt;-analizar.modelos_rslv/ValoresUnicosCampo" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,122" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="172,70"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PasarAmenazaALineas2" location="50,235" size="256,391" id="analizar.modelos_rslv/PasarAmenazaALineas2" runTimeClassModel="setNuevoCampoAmenazaFC(Ljava.lang.String;),getExpresionCalculoCampoAmenaza(),setExpresionCalculoCampoAmenaza(Ljava.lang.Object;),getRutaNuevoFCLassCentroidesAmenaza(),setRutaFClassCentroidesLV(Ljava.lang.Object;),getNuevoCampoAmenazaFC(),getToolName(),getRutaRasterAmenaza(),PasarAmenazaALineas2(Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.String;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;),getToolboxAlias(),getToolboxName(),getRutaFCLassLV(),setRutaRasterAmenaza(Ljava.lang.Object;),getCampoAmenazaFCACalcular(),setCampoAmenazaFCACalcular(Ljava.lang.Object;),setRutaNuevoFCLassCentroidesAmenaza(Ljava.lang.Object;),PasarAmenazaALineas2(),getRutaFClassCentroidesLV(),setRutaFCLassLV(Ljava.lang.Object;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="233,342">
+      <children xsi:type="editmodel:MethodEditModel" name="PasarAmenazaALineas2" id="analizar.modelos_rslv/PasarAmenazaALineas2#PasarAmenazaALineas2(Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.String;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="PasarAmenazaALineas2" id="analizar.modelos_rslv/PasarAmenazaALineas2#PasarAmenazaALineas2()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCampoAmenazaFCACalcular" id="analizar.modelos_rslv/PasarAmenazaALineas2#getCampoAmenazaFCACalcular()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getExpresionCalculoCampoAmenaza" id="analizar.modelos_rslv/PasarAmenazaALineas2#getExpresionCalculoCampoAmenaza()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNuevoCampoAmenazaFC" id="analizar.modelos_rslv/PasarAmenazaALineas2#getNuevoCampoAmenazaFC()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRutaFCLassLV" id="analizar.modelos_rslv/PasarAmenazaALineas2#getRutaFCLassLV()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRutaFClassCentroidesLV" id="analizar.modelos_rslv/PasarAmenazaALineas2#getRutaFClassCentroidesLV()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRutaNuevoFCLassCentroidesAmenaza" id="analizar.modelos_rslv/PasarAmenazaALineas2#getRutaNuevoFCLassCentroidesAmenaza()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRutaRasterAmenaza" id="analizar.modelos_rslv/PasarAmenazaALineas2#getRutaRasterAmenaza()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolName" id="analizar.modelos_rslv/PasarAmenazaALineas2#getToolName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolboxAlias" id="analizar.modelos_rslv/PasarAmenazaALineas2#getToolboxAlias()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolboxName" id="analizar.modelos_rslv/PasarAmenazaALineas2#getToolboxName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCampoAmenazaFCACalcular" id="analizar.modelos_rslv/PasarAmenazaALineas2#setCampoAmenazaFCACalcular(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setExpresionCalculoCampoAmenaza" id="analizar.modelos_rslv/PasarAmenazaALineas2#setExpresionCalculoCampoAmenaza(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNuevoCampoAmenazaFC" id="analizar.modelos_rslv/PasarAmenazaALineas2#setNuevoCampoAmenazaFC(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRutaFCLassLV" id="analizar.modelos_rslv/PasarAmenazaALineas2#setRutaFCLassLV(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRutaFClassCentroidesLV" id="analizar.modelos_rslv/PasarAmenazaALineas2#setRutaFClassCentroidesLV(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRutaNuevoFCLassCentroidesAmenaza" id="analizar.modelos_rslv/PasarAmenazaALineas2#setRutaNuevoFCLassCentroidesAmenaza(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRutaRasterAmenaza" id="analizar.modelos_rslv/PasarAmenazaALineas2#setRutaRasterAmenaza(Ljava.lang.Object;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.3/@sourceConnections.0" autoLocated="true" id="com.esri.arcgis.geoprocessing/AbstractGPTool&lt;-analizar.modelos_rslv/PasarAmenazaALineas2" source="//@children.1" target="//@children.4" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="128,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,135" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PasarAmenazaALineas" location="305,235" size="256,427" id="analizar.modelos_rslv/PasarAmenazaALineas" runTimeClassModel="setRutaNuevoFClassCentroides(Ljava.lang.Object;),getListaCamposEliminarFCCentroides(),setNuevoCampoAmenazaFC(Ljava.lang.String;),getExpresionCalculoCampoAmenaza(),getRutaNuevoFCLassCentroidesAmenaza(),setExpresionCalculoCampoAmenaza(Ljava.lang.Object;),getNuevoCampoAmenazaFC(),getToolName(),getRutaRasterAmenaza(),PasarAmenazaALineas(),getToolboxAlias(),getToolboxName(),setListaCamposEliminarFCCentroides(Ljava.lang.Object;),getRutaFCLassLV(),setRutaRasterAmenaza(Ljava.lang.Object;),getCampoAmenazaFCACalcular(),PasarAmenazaALineas(Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.String;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;),setCampoAmenazaFCACalcular(Ljava.lang.Object;),setRutaNuevoFCLassCentroidesAmenaza(Ljava.lang.Object;),getRutaNuevoFClassCentroides(),setRutaFCLassLV(Ljava.lang.Object;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="233,378">
+      <children xsi:type="editmodel:MethodEditModel" name="PasarAmenazaALineas" id="analizar.modelos_rslv/PasarAmenazaALineas#PasarAmenazaALineas()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="PasarAmenazaALineas" id="analizar.modelos_rslv/PasarAmenazaALineas#PasarAmenazaALineas(Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.String;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCampoAmenazaFCACalcular" id="analizar.modelos_rslv/PasarAmenazaALineas#getCampoAmenazaFCACalcular()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getExpresionCalculoCampoAmenaza" id="analizar.modelos_rslv/PasarAmenazaALineas#getExpresionCalculoCampoAmenaza()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getListaCamposEliminarFCCentroides" id="analizar.modelos_rslv/PasarAmenazaALineas#getListaCamposEliminarFCCentroides()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNuevoCampoAmenazaFC" id="analizar.modelos_rslv/PasarAmenazaALineas#getNuevoCampoAmenazaFC()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRutaFCLassLV" id="analizar.modelos_rslv/PasarAmenazaALineas#getRutaFCLassLV()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRutaNuevoFCLassCentroidesAmenaza" id="analizar.modelos_rslv/PasarAmenazaALineas#getRutaNuevoFCLassCentroidesAmenaza()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRutaNuevoFClassCentroides" id="analizar.modelos_rslv/PasarAmenazaALineas#getRutaNuevoFClassCentroides()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRutaRasterAmenaza" id="analizar.modelos_rslv/PasarAmenazaALineas#getRutaRasterAmenaza()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolName" id="analizar.modelos_rslv/PasarAmenazaALineas#getToolName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolboxAlias" id="analizar.modelos_rslv/PasarAmenazaALineas#getToolboxAlias()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolboxName" id="analizar.modelos_rslv/PasarAmenazaALineas#getToolboxName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCampoAmenazaFCACalcular" id="analizar.modelos_rslv/PasarAmenazaALineas#setCampoAmenazaFCACalcular(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setExpresionCalculoCampoAmenaza" id="analizar.modelos_rslv/PasarAmenazaALineas#setExpresionCalculoCampoAmenaza(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setListaCamposEliminarFCCentroides" id="analizar.modelos_rslv/PasarAmenazaALineas#setListaCamposEliminarFCCentroides(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNuevoCampoAmenazaFC" id="analizar.modelos_rslv/PasarAmenazaALineas#setNuevoCampoAmenazaFC(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRutaFCLassLV" id="analizar.modelos_rslv/PasarAmenazaALineas#setRutaFCLassLV(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRutaNuevoFCLassCentroidesAmenaza" id="analizar.modelos_rslv/PasarAmenazaALineas#setRutaNuevoFCLassCentroidesAmenaza(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRutaNuevoFClassCentroides" id="analizar.modelos_rslv/PasarAmenazaALineas#setRutaNuevoFClassCentroides(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRutaRasterAmenaza" id="analizar.modelos_rslv/PasarAmenazaALineas#setRutaRasterAmenaza(Ljava.lang.Object;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.esri.arcgis.geoprocessing/AbstractGPTool&lt;-analizar.modelos_rslv/PasarAmenazaALineas" source="//@children.2" target="//@children.1/@sourceConnections.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="128,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,67"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="UnirTablaValoresUnicosaFC" location="568,235" size="219,391" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC" runTimeClassModel="getCampoNuevoFC(),setCampoNuevoFC(Ljava.lang.String;),getTablaUnir(),getToolName(),setExpresionCalculoFC(Ljava.lang.Object;),getToolboxAlias(),UnirTablaValoresUnicosaFC(Ljava.lang.String;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;),setCampoFCJoin(Ljava.lang.Object;),getCampoNuevoFC2(),setCampoNuevoFC2(Ljava.lang.Object;),setFClass(Ljava.lang.Object;),getExpresionCalculoFC(),getFClass(),getToolboxName(),getCampoTablaUnirJoin(),getCampoFCJoin(),UnirTablaValoresUnicosaFC(),setCampoTablaUnirJoin(Ljava.lang.Object;),setTablaUnir(Ljava.lang.Object;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="165,342">
+      <children xsi:type="editmodel:MethodEditModel" name="UnirTablaValoresUnicosaFC" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#UnirTablaValoresUnicosaFC()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="UnirTablaValoresUnicosaFC" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#UnirTablaValoresUnicosaFC(Ljava.lang.String;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCampoFCJoin" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#getCampoFCJoin()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCampoNuevoFC" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#getCampoNuevoFC()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCampoNuevoFC2" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#getCampoNuevoFC2()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCampoTablaUnirJoin" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#getCampoTablaUnirJoin()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getExpresionCalculoFC" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#getExpresionCalculoFC()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFClass" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#getFClass()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTablaUnir" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#getTablaUnir()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolName" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#getToolName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolboxAlias" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#getToolboxAlias()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolboxName" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#getToolboxName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCampoFCJoin" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#setCampoFCJoin(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCampoNuevoFC" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#setCampoNuevoFC(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCampoNuevoFC2" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#setCampoNuevoFC2(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCampoTablaUnirJoin" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#setCampoTablaUnirJoin(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setExpresionCalculoFC" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#setExpresionCalculoFC(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFClass" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#setFClass(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTablaUnir" id="analizar.modelos_rslv/UnirTablaValoresUnicosaFC#setTablaUnir(Ljava.lang.Object;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="com.esri.arcgis.geoprocessing/AbstractGPTool&lt;-analizar.modelos_rslv/UnirTablaValoresUnicosaFC" source="//@children.3" target="//@children.1/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="16,135"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0 //@children.0/@sourceConnections.0" name="AbstractGPTool" location="180,0" size="172,135" id="com.esri.arcgis.geoprocessing/AbstractGPTool" runTimeClassModel="getParameterValues(),AbstractGPTool(),a,toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="69,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="a" id="com.esri.arcgis.geoprocessing/AbstractGPTool#a"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,54">
+      <children xsi:type="editmodel:MethodEditModel" name="AbstractGPTool" id="com.esri.arcgis.geoprocessing/AbstractGPTool#AbstractGPTool()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getParameterValues" id="com.esri.arcgis.geoprocessing/AbstractGPTool#getParameterValues()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="com.esri.arcgis.geoprocessing/AbstractGPTool#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
